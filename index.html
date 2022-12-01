@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Burger Point!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="navmenu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="reservation.html" class="inactivelink">Reservation</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+</div>
+    <div class="reserveheader">
+        <h1>Reserve a Table</h1>
+    </div>
+        <p class="reservetext">
+        We can not guarantee you a table in the rush hours. How about reserving a table and enjoying your Burger Point experience with a peace of mind?
+        </p>
+
+    <div class="reservation">
+    <form action="/confirm.html">
+        <div class="flexcontainer1">
+            <div>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname">
+            </div>
+            <div>
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname">    
+            </div>
+        </div>
+            
+        <div class="flexcontainer2">
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id='email' name="mailaddress">
+            </div>
+            <div>   
+                <label for="tel">Telephone Number</label>
+                <input type="tel" id="tel" name="phone-number">
+            </div>
+        </div>
+        <div class="flexcontainer3">
+            <div>
+                <label for="date">Date</label>
+                <input type='date' id="date" style=width:150px name="reserv-date">
+            </div>
+            <div>
+                <label for="time">Time</label>
+                <input type='time' id="time" style=width:150px name="reserv-time">
+            </div>
+        </div>
+                <div class="guesttextandbuttons">
+                        <p class="guesttext">Number of guests:</p>
+                    <div class="buttons">
+                            <input type="radio" label="1" id="g1" name="guests" value="1 guest">
+                            <label for="g1">1</label>
+                            <input type="radio" id="g2" name="guests" value="2 guests">
+                            <label for="g2">2</label>
+                            <input type="radio" id="g3" name="guests" value="3 guests">
+                            <label for="g3">3</label>
+                            <input type="radio" id="g4" name="guests" value="4 guests">
+                             <label for="g4">4</label>
+                             <input type="radio" id="gmore" name="guests" value="more than 4 guests">
+                             <label for="gmore">more</label>
+                    </div>
+                </div>
+                <div class="tableselection">
+                    <label for="tables">An inside or outside table?</label><br>
+                    <select name="tables" id="tables" style="width: 156px;" >
+                    <option value="An Inside Table">Inside</option>
+                    <option value="An Outside Table">Outside</option>
+                    <option value="Doesn't Matter">Doesn't matter</option>
+                    </select>
+                </div>
+                 <div class="requestbox">
+                    <label for="comments">Special Requests</label>
+                    <textarea name="comments" id="comments" cols="48" rows="5"></textarea>
+                </div>
+                <div class="subsub">
+                    <label for="subscribe">I agree to the Terms and Conditions.</label><br>
+                    <input type="checkbox" id="subscribe">
+                    <input type="submit" value="Submit">
+                </div>
+        
+    </form>
+        <p class="reserveinfo">
+        You will receive an SMS when your reservation is confirmed. Your reservation will be canceled when you are 15 minutes late. In case you want to cancel or change your reservation, please let us informed at least 2 hours before by e-mail or telephone.
+        </p>
+        <hr>
+        <div class="terms">
+            <p>Terms and Conditions:</p>
+                <ol>
+                    <li>As a condition to the grant of rights hereunder, each Article and any other matter containing Licensed
+            Material shall bear a properly located permanently affixed copyright notice in Burger Point's name (e.g., "(C) Burger Point"), and
+            in the name of Can Yapalak, or such other notice as Burger Point specifies to Licensee in writing:
+                    <ul>
+                        <li>Contract of Service</li>
+                        <li>Data Storage Policy</li>
+                        <li>Non-Disclosure Agreement</li>
+                    </ul>
+                    </li>
+                    <li>Licensee will comply with such instructions as to form, location and content of the notice as Disney may give from time to time.</li>
+                    <li>Licensee will not, without Burger Point's prior written consent, affix to any Article or any other matter containing Licensed Material
+            a copyright notice in any other name.</li>
+                    <li>If through inadvertence or otherwise a copyright notice on any Article or other such matter should appear in Licensee's name or the
+            name of a third party, Licensee hereby agrees to assign to Disney the copyright represented by any such copyright notice
+            in Licensee's name and, upon request, cause the execution and delivery to Burger Point of whatever documents are necessary
+            to convey to Burger Point that copyright represented by any such copyright notice.</li>
+                    <li>If by inadvertence a proper copyright
+            notice is omitted from any Article or other matter containing Licensed Material, Licensee agrees at Licensee's expense
+            to use all reasonable efforts to correct the omission on a such Articles or other matter in process of manufacture or in
+            distribution:
+                    <ul>
+                        <li>Residence Information</li>
+                        <li>Telephone Number</li>
+                        <li>E-Mail Address</li>
+                        <li>Personal Details</li>
+                    </ul>
+                    </li>
+                    <li>Licensee agrees to advise Burger Point promptly and in writing of the steps being taken to correct any such
+            omission and to make the corrections on existing Articles which can be located.</li>
+            </ol>
+        </div>
+    </div>
+
+        <div class="footer">
+        <p>Burger Point™ All Rights Reserved</p>
+        <div class="followus">
+            <p>Follow Us:</p> <a href="https://www.instagram.com"><img src="insta.png" alt="Instagram"></a> <a
+                href="https://www.twitter.com"><img src="twitter.png" alt="Twitter"></a>
+        </div>
+    </div>
+    
+</body>
+    
+</html>
